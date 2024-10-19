@@ -60,3 +60,18 @@ Calculate the total number of characters after the transformation, excluding any
 
 ### 4. Store the Result:
 Write the transformed names into a new text file in a single continuous line, with no line breaks.
+
+# Calories
+You are required to implement a function that performs calorie analysis based on a date range. The function will take two inputs: 'from date' and 'to date', and perform the following tasks:
+
+### 1. Average Calorie Calculation:
+Calculate the average calorie intake per day within the given date range.
+
+### 2. Standard Deviation:
+Compute the standard deviation of the calorie intake within the date range to measure the variation.
+
+### 3. Highest Calorie Day:
+Identify the day with the highest calorie intake within the specified date range.
+
+### 4. Highest Calorie per Meal:
+Determine the meal with the highest calorie intake within the date range.
