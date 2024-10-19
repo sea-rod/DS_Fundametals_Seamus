@@ -36,10 +36,27 @@ This project reads two CSV files containing 3x3 matrices, multiplies them, and w
 ## Your task is to:
 
 ### 1. Read CSV Files
-- Use Python’s built-in `open()` function to read two CSV files, where each file contains a 3x3 matrix.
+Use Python’s built-in `open()` function to read two CSV files, where each file contains a 3x3 matrix.
 
 ### 2. Matrix Multiplication
 Perform matrix multiplication on the two 3x3 matrices.
 
 ### 3. Store the Result
 Write the result of the matrix multiplication to a new CSV file using Python's `open()` function.
+
+# [List Manipulation and Comprehension](List_Manipulation_and_Comprehension)
+You are provided with a text file containing a list of names. 
+## Your task is to:
+
+### 1. Read the File:
+Read the contents of the text file and store each line (representing a name) in a 2D list.
+
+### 2. Perform Column-Major Transformation:
+
+Transform the 2D list of names into column-major order, where characters are read vertically, column by column.
+
+### 3. Count the Characters:
+Calculate the total number of characters after the transformation, excluding any padding spaces added during the process.
+
+### 4. Store the Result:
+Write the transformed names into a new text file in a single continuous line, with no line breaks.
