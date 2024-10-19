@@ -115,3 +115,16 @@ Insert the retrieved data into the corresponding MongoDB collections. Ensure tha
 # [Longest String of 1s](longest_string_1s)
 You are tasked with finding the longest contiguous sequence of 1s in a 3D matrix. 
 The function should identify and return the longest sequence of 1s that appears in any horizontal or vertical slice of the matrix. Additionally, the function should return the positions of the elements in this sequence.
+
+# [Flight Ticket](flight_ticket)
+You are tasked with developing a pricing mechanism for a Passenger Management System. 
+## The system will perform the following tasks:
+
+### 1. Fetch Ticket Information: 
+Retrieve ticket information from a MongoDB database that contains details about the customer's visited destinations.
+
+### 2. Determine Last Visited Destination: 
+Identify the last destination the customer visited from the retrieved ticket information.
+
+### 3. Calculate Visa Price: 
+Based on the last visited destination, find the visa price using a provided JSON file provided
