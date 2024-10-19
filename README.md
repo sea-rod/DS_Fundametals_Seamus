@@ -61,7 +61,7 @@ Calculate the total number of characters after the transformation, excluding any
 ### 4. Store the Result:
 Write the transformed names into a new text file in a single continuous line, with no line breaks.
 
-# Calories
+# [Calories](calories)
 You are required to implement a function that performs calorie analysis based on a date range. The function will take two inputs: 'from date' and 'to date', and perform the following tasks:
 
 ### 1. Average Calorie Calculation:
@@ -75,3 +75,18 @@ Identify the day with the highest calorie intake within the specified date range
 
 ### 4. Highest Calorie per Meal:
 Determine the meal with the highest calorie intake within the date range.
+
+## Constraints
+You are not allowed to use the `datetime` library.
+
+# [MySql MongoDB](mysql_mongodb)
+You are required to develop a Python script that transfers data from an SQL database to a MongoDB database. The script should accomplish the following tasks:
+
+### 1. Fetch Data:
+Retrieve data from the specified tables in the SQL database. You may choose to fetch data from one or multiple tables as needed.
+
+### 2. Transform Data:
+If necessary, transform the data into a format suitable for storage in MongoDB. This may include converting data types or reshaping data structures.
+
+### 3. Insert Data into MongoDB:
+Insert the retrieved data into the corresponding MongoDB collections. Ensure that the data is stored efficiently and maintains the relationships as needed.
