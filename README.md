@@ -128,3 +128,18 @@ Identify the last destination the customer visited from the retrieved ticket inf
 
 ### 3. Calculate Visa Price: 
 Based on the last visited destination, find the visa price using a provided JSON file provided
+
+# [Review - Sentiment Analysis](review_sentiment_analysis)
+You are tasked with classifying and summarizing product reviews. The system should perform the following tasks:
+
+### 1. Classify Reviews:
+Analyze and classify the reviews into one of three categories: positive, negative, or neutral.
+
+### 2. Store Reviews by Class:
+Store each class of reviews (positive, negative, and neutral) in separate text files.
+
+### 3. Plot Review Distribution:
+Plot a graph showing the count of reviews in each class (positive, negative, neutral).
+
+### 4. Summarize Reviews:
+Using only the NLTK library, generate a summary for each class of reviews (positive, negative, neutral).
