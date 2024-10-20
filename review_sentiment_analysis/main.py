@@ -8,6 +8,6 @@ if "__main__" == __name__:
     for i in sentiments:
         print(i[0],i[2])
     sort_sentiment = get_sentiment_sort(sentiments)
-    # write_sentiment(sort_sentiment)
-    # plot_data(sort_sentiment)
+    write_sentiment(sort_sentiment)
+    plot_data(sort_sentiment)
     summarize_review(sort_sentiment)
